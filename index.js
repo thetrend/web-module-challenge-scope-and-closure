@@ -153,8 +153,11 @@ Use the scoreboard function below to do the following:
 ]  
   */
 
-function scoreboard(/* CODE HERE */) {
-  /* CODE HERE */
+function scoreboard(getInningScore, inning, inningCount) {
+  let array = [];
+  for (let i = 0; i < inningCount; i++) {
+    array.push()
+  }
 }
 
 
