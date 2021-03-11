@@ -67,7 +67,7 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(){
-  return Math.round(Math.random() * 4);
+  return Math.round(Math.random() * 2);
 }
 
 
@@ -85,7 +85,7 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(/*code Here*/){
+function finalScore(inning, inningCount){
   /*Code Here*/
 }
 
